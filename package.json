@@ -1,0 +1,48 @@
+{
+  "name": "nox-language",
+  "displayName": "Nox Language Support",
+  "description": "Syntax highlighting and language support for Nox programming language",
+  "version": "1.0.0",
+  "publisher": "estev",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estev/nox-language.git"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "nox",
+    "syntax",
+    "highlighting",
+    "language"
+  ],
+
+  "contributes": {
+    "languages": [
+      {
+        "id": "nox",
+        "aliases": [
+          "Nox",
+          "nox"
+        ],
+        "extensions": [
+          ".nx",
+          ".nox"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nox",
+        "scopeName": "source.nox",
+        "path": "./syntaxes/nox.tmLanguage.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}

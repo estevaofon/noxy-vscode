@@ -1,0 +1,50 @@
+// Exemplo de código Nox para testar syntax highlighting
+// Este arquivo testa todas as funcionalidades da linguagem
+
+func main() -> int
+    let nome: string = "Nox Language"
+    let idade: int = 25
+    let ativo: bool = true
+    let resultado: int = 0
+    
+    // Teste de comentários
+    if idade > 18 then
+        print("Maior de idade")
+        resultado = calcular(idade, 10)
+    else
+        print("Menor de idade")
+        resultado = 0
+    end
+    
+    // Teste de loop
+    for i in 1..5 do
+        print("Iteração: " + to_str(i))
+    end
+    
+    // Teste de operadores
+    let soma: int = 10 + 20
+    let comparacao: bool = soma == 30
+    let diferente: bool = soma != 25
+    
+    return resultado
+end
+
+func calcular(a: int, b: int) -> int
+    let temp: int = a * b
+    return temp + 100
+end
+
+func processar_string(texto: string) -> string
+    let tamanho: int = strlen(texto)
+    if tamanho > 0 then
+        return "Processado: " + texto
+    else
+        return "Vazio"
+    end
+end
+
+struct Pessoa
+    nome: string
+    idade: int
+    ativo: bool
+end
