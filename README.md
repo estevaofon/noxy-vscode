@@ -86,7 +86,7 @@ The extension provides:
 - Line comments with `//`
 - Auto-closing pairs for `()`, `[]`, `{}`, `""`
 - Smart indentation based on language structure
-- Code folding for functions, structs, and control blocks
+- Code folding based on indentation
 
 ## Contributing
 
