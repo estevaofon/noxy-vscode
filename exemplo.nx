@@ -1,8 +1,8 @@
-// Exemplo de código Nox para testar syntax highlighting
+// Exemplo de código Noxy para testar syntax highlighting
 // Este arquivo testa todas as funcionalidades da linguagem
 
 func main() -> int
-    let nome: string = "Nox Language"
+    let nome: string = "Noxy Language"
     let idade: int = 25
     let ativo: bool = true
     let resultado: int = 0

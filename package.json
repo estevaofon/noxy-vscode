@@ -1,7 +1,7 @@
 {
-  "name": "nox-language",
-  "displayName": "Nox Language Support",
-  "description": "Syntax highlighting and language support for Nox programming language",
+  "name": "noxy-language",
+  "displayName": "Noxy Language Support",
+  "description": "Syntax highlighting and language support for the Noxy programming language",
   "version": "1.0.0",
   "publisher": "estev",
   "engines": {
@@ -15,7 +15,7 @@
     "Programming Languages"
   ],
   "keywords": [
-    "nox",
+    "noxy",
     "syntax",
     "highlighting",
     "language"
@@ -24,23 +24,24 @@
   "contributes": {
     "languages": [
       {
-        "id": "nox",
+        "id": "noxy",
         "aliases": [
-          "Nox",
-          "nox"
+          "Noxy",
+          "noxy"
         ],
         "extensions": [
           ".nx",
-          ".nox"
+          ".nox",
+          ".noxy"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "nox",
-        "scopeName": "source.nox",
-        "path": "./syntaxes/nox.tmLanguage.json"
+        "language": "noxy",
+        "scopeName": "source.noxy",
+        "path": "./syntaxes/noxy.tmLanguage.json"
       }
     ]
   },

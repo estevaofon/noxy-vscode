@@ -1,13 +1,13 @@
-# Nox Language Support for VSCode
+# Noxy Language Support for VSCode
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=estev.nox-language)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/items?itemName=estev.noxy-language)
 
-Syntax highlighting and language support for the Nox programming language in Visual Studio Code.
+Syntax highlighting and language support for the Noxy programming language in Visual Studio Code.
 
 ## Features
 
-- **Syntax Highlighting** - Complete syntax highlighting for Nox language files (`.nx`, `.nox`)
+- **Syntax Highlighting** - Complete syntax highlighting for Noxy language files (`.nx`, `.nox`, `.noxy`)
 - **Auto-completion** - Bracket auto-closing and smart indentation
 - **Code Folding** - Support for folding code blocks
 - **Comment Toggle** - Easy commenting with `Ctrl+/`
@@ -37,7 +37,7 @@ Syntax highlighting and language support for the Nox programming language in Vis
 ### From VSCode Marketplace
 1. Open VSCode
 2. Go to Extensions view (`Ctrl+Shift+X`)
-3. Search for "Nox Language Support"
+3. Search for "Noxy Language Support"
 4. Click Install
 
 ### From VSIX File
@@ -50,10 +50,10 @@ Syntax highlighting and language support for the Nox programming language in Vis
 
 ## Example Code
 
-```nox
-// Nox Language Example
+```noxy
+// Noxy Language Example
 func main() -> int
-    let nome: string = "Nox Language"
+    let nome: string = "Noxy Language"
     let idade: int = 25
     let ativo: bool = true
     
@@ -78,6 +78,7 @@ end
 This extension activates for files with the following extensions:
 - `.nx`
 - `.nox`
+- `.noxy`
 
 ## Language Configuration
 
@@ -105,7 +106,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 1.0.0
 - Initial release
-- Complete syntax highlighting for Nox language
+- Complete syntax highlighting for Noxy language
 - Support for functions, structs, variables, and control flow
 - Auto-completion and bracket matching
 - Code folding support
@@ -116,4 +117,4 @@ If you encounter any issues or have suggestions, please [open an issue](https://
 
 ---
 
-**Enjoy coding in Nox! 🚀**
+**Enjoy coding in Noxy! 🚀**
