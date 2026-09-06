@@ -41,7 +41,7 @@ Syntax highlighting and language support for the Nox programming language in Vis
 4. Click Install
 
 ### From VSIX File
-1. Download the latest `.vsix` file from [Releases](https://github.com/estev/nox-language/releases)
+1. Download the latest `.vsix` file from [Releases](https://github.com/estevaofon/noxy-vscode/releases)
 2. Open VSCode
 3. Go to Extensions view (`Ctrl+Shift+X`)
 4. Click the three dots menu `...`
@@ -112,7 +112,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Issues and Feedback
 
-If you encounter any issues or have suggestions, please [open an issue](https://github.com/estev/nox-language/issues) on GitHub.
+If you encounter any issues or have suggestions, please [open an issue](https://github.com/estevaofon/noxy-vscode/issues) on GitHub.
 
 ---
 
